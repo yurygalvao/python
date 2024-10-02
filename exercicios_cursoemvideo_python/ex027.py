@@ -1,0 +1,7 @@
+n = input('Qual o seu nome?').strip()
+nome = n.split()
+print(nome[0])
+print(nome[len(nome)-1])
+print(nome)
+print(len(nome))
+print(len(n))
