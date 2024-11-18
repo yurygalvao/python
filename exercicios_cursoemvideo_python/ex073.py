@@ -1,0 +1,6 @@
+times = ('Botafogo', 'Palmeiras', 'Fortaleza', 'Internacional', 'Flamengo', 'São Paulo', 'Cruzeiro', 'Bahia', 'Vasco da Gama', 'Corinthians', 'Atlético-MG', 'Grêmio', 'EC Vitória', 'Fluminense', 'Criciuma', 'Juventude', 'Bragantino', 'Athletico-PR', 'Cuiabá', 'Atletico-GO')
+print(f'Lista dos times do Brasileirão {times}')
+print(f'Os 5 primeiros são {times[:5]}')
+print(f'Os 4 últimos são {times[-4:]}')
+print(f'Os times em ordem alfabética: {sorted(times)}')
+print(f'O {times[7]} está na 8ª colocação')
